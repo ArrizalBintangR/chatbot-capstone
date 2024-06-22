@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from pages import chatbot
 from streamlit_navigation_bar import st_navbar
 import pages as pg
 import uuid
