@@ -15,7 +15,7 @@ from PIL import Image
 from streamlit_js_eval import streamlit_js_eval
 from pages.styles import page_bg_img
 
-team_names = ["Arrizal Bintang Ramadhan", "Icut Like Aprilliyana", "Muhammad Fatih Khaeran Rabbani", "Nurul Ajijah Kartika Dewi", "Rafi Zhafar Kurnia", "Salsabila Anisah Putri Farihah", "Moch. Sultan Fauzi"]
+team_names = ["Arrizal Bintang Ramadhan", "Icut Like Aprilliyana", "Muhammad Fatih Khaeran Rabbani", "Salsabila Anisah Putri Farihah", "Rafi Zhafar Kurnia", "Nurul Ajijah Kartika Dewi", "Moch. Sultan Fauzi"]
 
 ## Load secrets.toml variables for email configuration
 options = os.getenv("OPTIONS")

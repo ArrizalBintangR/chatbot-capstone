@@ -9,7 +9,7 @@ def show_home():
     columns = st.columns((2, 1, 2))
     button_pressed = columns[1].button(':green[Try Now !]')
     if button_pressed:
-        st.switch_page("pages\chatbot.py")
+        st.switch_page("chatbot.py")
 
     st.divider()
     st.markdown("<h3 style='color: #232f3e;'>Why choose Nirvita?</h3>", unsafe_allow_html=True)
