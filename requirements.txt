@@ -5,3 +5,4 @@ Pillow
 python-dotenv==1.0.0
 streamlit
 streamlit-js-eval==0.1.5
+streamlit-navigation-bar
