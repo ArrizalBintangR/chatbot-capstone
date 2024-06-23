@@ -17,6 +17,9 @@ hide_sidebar_style = """
         [data-testid="collapsedControl"] {
             display: none;
         }
+        [data-testid="baseButton-headerNoPadding"] {
+            display: none;
+        }
     </style>
 """
 st.markdown(hide_sidebar_style, unsafe_allow_html=True)
