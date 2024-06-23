@@ -29,4 +29,3 @@ def show_feature():
     with col4:
       st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAjl3XTaPNB3JexzA8VHhgPca28ikmZbbAHw&s", use_column_width=True)
       st.markdown("<p style='text-align: center; color: #232f3e; font-size: 15px'>Nirvita Image Classification</p>", unsafe_allow_html=True)
-# show_feature()

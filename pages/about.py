@@ -151,5 +151,3 @@ def show_about():
 
             except EmailNotValidError as e:
                 st.error(f"Invalid email address. {e}") # error in case any of the email validation checks have not passed
-
-# show_about()
