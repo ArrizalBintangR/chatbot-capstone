@@ -32,7 +32,6 @@ def show_about():
 
 #############################################################################################################
   st.divider()
-  st.divider()
   st.markdown("<h2 style='text-align: center; color: #55AD9B;'>Our Team</h2>", unsafe_allow_html=True)
 
   row1 = st.columns(3)
@@ -45,14 +44,13 @@ def show_about():
   for index, col in enumerate(row1 + row2):
     image_url = f'https://potokelompok.s3.ap-southeast-1.amazonaws.com/{index + 1}'
     image = Image.open(requests.get(image_url, stream=True).raw)
-    new_image = image.resize((250, 250))
     
     # Convert image to base64 for embedding in HTML
     from io import BytesIO
     import base64
     
     buffered = BytesIO()
-    new_image.save(buffered, format="PNG")
+    image.save(buffered, format="PNG")
     img_str = base64.b64encode(buffered.getvalue()).decode()
     img_data = f"data:image/png;base64,{img_str}"
     
@@ -67,7 +65,6 @@ def show_about():
     col.markdown(html_code, unsafe_allow_html=True)
 
 #############################################################################################################
-  st.divider()
   st.divider()
   st.markdown("<h2 style='text-align: center; color: #55AD9B;'>✉️ Contact Us</h2>", unsafe_allow_html=True)
 
