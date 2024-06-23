@@ -23,4 +23,3 @@ def show_home():
 
     st.markdown("<h3 style='color: #232f3e;'>How does Artificial Intelligence helps you Answer your Skin problem?</h3>", unsafe_allow_html=True)
     st.markdown("<p style='color: #232f3e;'>Artificial Intelligence revolutionizes dermatology by offering precise, personalized, and proactive skin care solutions. Our AI dermatologist assistant leverages cutting-edge algorithms to analyze skin conditions, compare them with vast dermatological datasets, and provide accurate assessments. It empowers users with instant access to skin health advice, potential diagnoses, and treatment options. This not only enhances patient engagement and satisfaction but also streamlines the workload of healthcare professionals. By integrating AI, we’re not just solving skin problems—we’re transforming the skincare journey into a seamless, tech-driven experience.</p>", unsafe_allow_html=True)
-
