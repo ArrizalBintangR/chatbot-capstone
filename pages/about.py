@@ -31,6 +31,8 @@ def show_about():
   st.markdown("<p style='text-align: center; color:#232f3e;'>At Nirmala Vitalis, our philosophy is rooted in the promotion of clean and pure health, fostering a life of sustainable vitality. 'Nirmala' signifies the essence of purity and cleanliness, while 'Vitalis' captures the crucial life force that propels us. Together, they encapsulate our commitment to nurturing a holistic well-being that resonates with the natural balance of life.</p>", unsafe_allow_html=True)
 
 #############################################################################################################
+  st.divider()
+  st.divider()
   st.markdown("<h2 style='text-align: center; color: #55AD9B;'>Our Team</h2>", unsafe_allow_html=True)
 
   row1 = st.columns(3)
@@ -65,6 +67,8 @@ def show_about():
     col.markdown(html_code, unsafe_allow_html=True)
 
 #############################################################################################################
+  st.divider()
+  st.divider()
   st.markdown("<h2 style='text-align: center; color: #55AD9B;'>✉️ Contact Us</h2>", unsafe_allow_html=True)
 
   col1, col2, col3, col4 =  st.columns([150, 0.25, 1, 0.25]) # column widths for a balanced distribution of elements in the page
