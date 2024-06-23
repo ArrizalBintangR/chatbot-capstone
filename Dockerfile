@@ -2,6 +2,8 @@ FROM python:3.12-slim
 
 # remember to expose the port your app'll be exposed on.
 EXPOSE 8080
+ENV agent_id LOONYEZUWN
+ENV agentAliasId 66PWWSWQXC
 
 RUN pip install -U pip
 
